@@ -20,6 +20,12 @@ body {
   padding: 3em;
 }
 
+.header h2 {
+  font-size: 1.6em;
+  color: #404040;
+
+}
+
 .social-icons {
   font-size: 1.4em;
 }
@@ -47,4 +53,8 @@ body {
   text-decoration: none;
   color: #606060;
   padding: 2em;
+}
+
+.menu a:hover {
+  color: #000;
 }

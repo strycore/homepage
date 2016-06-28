@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.13.0",
+    "connect-modrewrite": "^0.9.0",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.0"
+    "gulp-concat": "^2.6.0",
+    "gulp-nunjucks": "^2.2.0"
   }
 }
