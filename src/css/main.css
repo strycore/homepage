@@ -1,0 +1,10 @@
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  width: calc(100% - 1em);
+}
+
+.header {
+  text-align: center;
+}
+
