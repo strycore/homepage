@@ -1,0 +1,21 @@
+{
+  "name": "homepage",
+  "authors": [
+    "Mathieu Comandon <strycore@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton-framework": "https://github.com/skeletonframework/skeletonframework.git#^1.1.1",
+    "font-awesome": "https://github.com/FortAwesome/Font-Awesome.git#^4.6.3"
+  }
+}
