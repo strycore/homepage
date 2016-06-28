@@ -1,3 +1,7 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   max-width: 980px;
   margin: 0 auto;
@@ -6,5 +10,10 @@
 
 .header {
   text-align: center;
+}
+
+.social-icons {
+  font-size: 1.4em;
+  color: #BABABA;
 }
 
