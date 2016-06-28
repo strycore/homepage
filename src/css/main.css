@@ -10,10 +10,34 @@ body {
 
 .header {
   text-align: center;
+  padding: 3em;
 }
 
 .social-icons {
   font-size: 1.4em;
-  color: #BABABA;
 }
 
+.social-icons a {
+  color: #BABABA;
+  padding: .5em;
+}
+
+.social-icons a:hover {
+  color: #606060;
+}
+
+.menu ul li {
+  list-style: none;
+  display: block;
+}
+@media screen and (min-width: 720px) {
+  .menu ul li {
+    display: inline-block;
+  }
+}
+.menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #606060;
+  padding: 2em;
+}
