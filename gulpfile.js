@@ -11,14 +11,14 @@ gulp.task('css', function() {
     'src/css/main.css'
   ])
   .pipe(concat('styles.css'))
-  .pipe(gulp.dest('assets/css'))
+  .pipe(gulp.dest('dist/assets/css'))
   .pipe(browserSync.stream());
 });
 
 
 gulp.task('fonts', function() {
   gulp.src(['bower_components/font-awesome/fonts/*'])
-    .pipe(gulp.dest('assets/fonts'))
+    .pipe(gulp.dest('dist/assets/fonts'))
 });
 
 gulp.task('html', function () {
